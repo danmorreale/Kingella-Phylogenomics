@@ -1,0 +1,44 @@
+
+
+WARNING: RAxML is not checking sequences for duplicate seqs and sites with missing data!
+
+
+
+This is RAxML version 8.2.4 released by Alexandros Stamatakis on October 02 2015.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+
+RAxML Bipartition Computation: Drawing support values from trees in file RAxML_bootstrap.Genus_tree_revision_KWG_boots onto tree in file RAxML_result.Genus_tree_revision_KWG
+
+
+RAxML was called as follows:
+
+raxml -T 8 -m GTRGAMMA -s clean_core_full_KWG1ref.aln -f b -t RAxML_result.Genus_tree_revision_KWG -z RAxML_bootstrap.Genus_tree_revision_KWG_boots -n Genus_tree_KWGREF_FINAL 
+
+
+
+
+Found 1 tree in File RAxML_result.Genus_tree_revision_KWG
+
+
+
+Found 100 trees in File RAxML_bootstrap.Genus_tree_revision_KWG_boots
+
+
+
+Found 1 tree in File RAxML_result.Genus_tree_revision_KWG
+
+
+
+Time for Computation of Bipartitions 0.019306
+Tree with bipartitions written to file:  /home/dmorreale/BKseqncbi1boots/Revision_species_tree/KWG1_ref/RAxML_bipartitions.Genus_tree_KWGREF_FINAL
+Tree with bipartitions as branch labels written to file:  /home/dmorreale/BKseqncbi1boots/Revision_species_tree/KWG1_ref/RAxML_bipartitionsBranchLabels.Genus_tree_KWGREF_FINAL
+Execution information file written to :  /home/dmorreale/BKseqncbi1boots/Revision_species_tree/KWG1_ref/RAxML_info.Genus_tree_KWGREF_FINAL

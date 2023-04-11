@@ -1,0 +1,959 @@
+IQ-TREE multicore version 2.2.0.3 COVID-edition for Mac OS X 64-bit built Sep  5 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-49.local (AVX512, FMA3, 16 GB RAM)
+Command: iqtree -s rtxA_clustalo_aln.fasta -m MFP -bb 1000 -alrt 1000
+Seed:    929123 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Mar 22 15:42:45 2023
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file rtxA_clustalo_aln.fasta ... Fasta format detected
+Reading fasta file: done in 0.0159779 secs using 89.37% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00736785 secs using 74.62% CPU
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 448 sequences with 1245 columns, 1194 distinct patterns
+1013 parsimony-informative, 67 singleton sites, 165 constant sites
+WARNING: Some sequence names are changed as follows:
+P55118_RecName_Full=Leukotoxin;_Short=Lkt_Mannheimia_haemolytica -> P55118_RecName_Full_Leukotoxin__Short_Lkt_Mannheimia_haemolytica
+Q9EV31_RecName_Full=Leukotoxin;_Short=Lkt_Mannheimia_haemolytica -> Q9EV31_RecName_Full_Leukotoxin__Short_Lkt_Mannheimia_haemolytica
+Q00951_RecName_Full=Hemolysin;_AltName_Full=APPA;_AltName_Full=CLY-IIA;_AltName_Full=CYTC;_AltName_Full=Cytolysin_II;_AltName_F -> Q00951_RecName_Full_Hemolysin__AltName_Full_APPA__AltName_Full_CLY-IIA__AltName_Full_CYTC__AltName_Full_Cytolysin_II__AltName_F
+Q9EV32_RecName_Full=Leukotoxin;_Short=Lkt_Mannheimia_haemolytica -> Q9EV32_RecName_Full_Leukotoxin__Short_Lkt_Mannheimia_haemolytica
+Q9ETX2_RecName_Full=Leukotoxin;_Short=Lkt_Mannheimia_glucosida -> Q9ETX2_RecName_Full_Leukotoxin__Short_Lkt_Mannheimia_glucosida
+Q9EV33_RecName_Full=Leukotoxin;_Short=Lkt_Mannheimia_haemolytica -> Q9EV33_RecName_Full_Leukotoxin__Short_Lkt_Mannheimia_haemolytica
+Q9EV30_RecName_Full=Leukotoxin;_Short=Lkt_Mannheimia_haemolytica -> Q9EV30_RecName_Full_Leukotoxin__Short_Lkt_Mannheimia_haemolytica
+AAA25543_leukotoxin_membrane_protein_(LktA)_Mannheimia_haemolytica -> AAA25543_leukotoxin_membrane_protein__LktA__Mannheimia_haemolytica
+P55123_RecName_Full=Leukotoxin;_AltName_Full=PlLkt_Mannheimia_cf._haemolytica -> P55123_RecName_Full_Leukotoxin__AltName_Full_PlLkt_Mannheimia_cf._haemolytica
+WP_161706586_MULTISPECIES_RTX_family_hemolysin_unclassified_Proteus_(in_enterobacteria) -> WP_161706586_MULTISPECIES_RTX_family_hemolysin_unclassified_Proteus__in_enterobacteria_
+Q9RCG8_RecName_Full=Exotoxin_PaxA_Pasteurella_aerogenes -> Q9RCG8_RecName_Full_Exotoxin_PaxA_Pasteurella_aerogenes
+P55130_RecName_Full=RTX-III_toxin_determinant_A_from_serotype_2;_AltName_Full=APX-IIIA;_AltName_Full=Cytolysin_IIIA;_Short=CLY- -> P55130_RecName_Full_RTX-III_toxin_determinant_A_from_serotype_2__AltName_Full_APX-IIIA__AltName_Full_Cytolysin_IIIA__Short_CLY-
+P55128_RecName_Full=RTX-I_toxin_determinant_A_from_serotypes_1/9;_AltName_Full=APX-IA;_AltName_Full=ApxI;_AltName_Full=Cytolysi -> P55128_RecName_Full_RTX-I_toxin_determinant_A_from_serotypes_1/9__AltName_Full_APX-IA__AltName_Full_ApxI__AltName_Full_Cytolysi
+P55129_RecName_Full=RTX-I_toxin_determinant_A_from_serotypes_5/10;_AltName_Full=APX-IA;_AltName_Full=Cytolysin_IA;_Short=CLY-IA -> P55129_RecName_Full_RTX-I_toxin_determinant_A_from_serotypes_5/10__AltName_Full_APX-IA__AltName_Full_Cytolysin_IA__Short_CLY-IA
+AAA21922_leukotoxin_(LtA)_Aggregatibacter_actinomycetemcomitans -> AAA21922_leukotoxin__LtA__Aggregatibacter_actinomycetemcomitans
+
+                                                                                                                                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00192499 secs using 87.64% CPU
+   1  WP_019388953_RTX_family_hemolysin_Kingella_kingae                                                                                 23.21%    passed     60.03%
+   2  SMH72671_rtxA_Kingella_kingae                                                                                                     23.21%    passed     62.54%
+   3  WP_038318223_RTX_family_hemolysin_Kingella_kingae                                                                                 23.21%    passed     63.76%
+   4  WP_038314414_RTX_family_hemolysin_Kingella_kingae                                                                                 23.21%    passed     68.52%
+   5  WP_003788410_RTX_family_hemolysin_Kingella_kingae                                                                                 23.21%    passed     64.04%
+   6  SMH72672_rtxA_Kingella_kingae                                                                                                     23.21%    passed     65.18%
+   7  WP_038307810_RTX_family_hemolysin_Kingella_kingae                                                                                 23.21%    passed     60.10%
+   8  WP_038315149_RTX_family_hemolysin_Kingella_kingae                                                                                 23.21%    passed     58.36%
+   9  WP_154700004_RTX_family_hemolysin_Kingella_kingae                                                                                 23.21%    passed     60.50%
+  10  SMH72684_rtxA_Kingella_kingae                                                                                                     23.21%    passed     58.32%
+  11  WP_038316701_RTX_family_hemolysin_Kingella_kingae                                                                                 23.21%    passed     60.71%
+  12  WP_038326198_RTX_family_hemolysin_Kingella_kingae                                                                                 23.21%    passed     71.76%
+  13  WP_038305613_RTX_family_hemolysin_Kingella_kingae                                                                                 23.21%    passed     66.64%
+  14  WP_038311891_RTX_family_hemolysin_Kingella_kingae                                                                                 23.21%    passed     62.93%
+  15  SMH72685_rtxA_Kingella_kingae                                                                                                     23.21%    passed     65.37%
+  16  WP_038302602_RTX_family_hemolysin_Kingella_kingae                                                                                 23.21%    passed     70.57%
+  17  WP_003791804_RTX_family_hemolysin_Kingella_kingae                                                                                 23.21%    passed     60.54%
+  18  WP_042923255_RTX_family_hemolysin_Kingella_kingae                                                                                 23.21%    passed     69.67%
+  19  WP_164538001_RTX_family_hemolysin_Kingella_kingae                                                                                 23.21%    passed     62.03%
+  20  SMH72679_rtxA_Kingella_kingae                                                                                                     22.33%    passed     47.44%
+  21  WP_038304744_RTX_family_hemolysin_Kingella_kingae                                                                                 23.21%    passed     74.59%
+  22  WP_038329516_RTX_family_hemolysin_Kingella_kingae                                                                                 23.21%    passed     62.98%
+  23  WP_038310329_RTX_family_hemolysin_Kingella_kingae                                                                                 23.21%    passed     70.93%
+  24  WP_095063378_RTX_family_hemolysin_Kingella_negevensis                                                                             22.33%    passed     56.19%
+  25  WP_032136237_RTX_family_hemolysin_Kingella_negevensis                                                                             23.21%    passed     66.96%
+  26  SMH72677_rtxA_Kingella_kingae                                                                                                     22.33%    passed     61.33%
+  27  ABR28460_cytotoxin_Moraxella_bovis                                                                                                25.54%    passed     98.27%
+  28  OOR87765_hemolysin_Moraxella_bovis                                                                                                25.46%    passed     97.98%
+  29  WP_078275051_RTX_family_hemolysin_Moraxella_bovis                                                                                 25.54%    passed     98.04%
+  30  WP_264698270_RTX_family_hemolysin_Moraxella_bovis                                                                                 25.54%    passed     98.00%
+  31  WP_264677998_RTX_family_hemolysin_Moraxella_bovis                                                                                 25.54%    passed     99.23%
+  32  WP_046700949_RTX_family_hemolysin_Moraxella_bovoculi                                                                              25.54%    passed     99.27%
+  33  WP_112744376_RTX_family_hemolysin_Moraxella_ovis                                                                                  25.54%    passed     98.66%
+  34  WP_046697934_RTX_family_hemolysin_Moraxella_bovoculi                                                                              25.54%    passed     98.80%
+  35  WP_019520344_RTX_family_hemolysin_Moraxella_boevrei                                                                               25.54%    passed     97.49%
+  36  ABA39415_RTX_A_toxin_partial_Moraxella_bovoculi                                                                                   25.54%    passed     98.52%
+  37  WP_063514371_RTX_family_hemolysin_Moraxella_ovis                                                                                  25.54%    passed     98.44%
+  38  WP_173944380_RTX_family_hemolysin_Moraxella_bovoculi                                                                              25.54%    passed     98.40%
+  39  WP_036365015_RTX_family_hemolysin_Moraxella_bovoculi                                                                              25.54%    passed     99.09%
+  40  ABA39417_RTX_A_toxin_partial_Moraxella_bovoculi                                                                                   25.54%    passed     98.37%
+  41  WP_029103721_RTX_family_hemolysin_Moraxella_caprae                                                                                24.42%    passed     54.63%
+  42  WP_176670972_RTX_family_hemolysin_Mannheimia_granulomatis                                                                         23.37%    passed     83.94%
+  43  WP_165889775_RTX_family_hemolysin_Mannheimia_granulomatis                                                                         23.37%    passed     61.71%
+  44  WP_025216434_RTX_family_hemolysin_Mannheimia_varigena                                                                             23.45%    passed     99.57%
+  45  AAU84700_ApxIIA_Actinobacillus_pleuropneumoniae                                                                                   23.21%    passed     58.43%
+  46  ACU43588_RTX-II_toxin_determinant_A_Actinobacillus_pleuropneumoniae                                                               23.21%    passed     62.42%
+  47  WP_012263031_RTX_family_hemolysin_Actinobacillus_pleuropneumoniae                                                                 23.21%    passed     56.10%
+  48  WP_005615301_MULTISPECIES_RTX_family_hemolysin_Actinobacillus                                                                     23.21%    passed     59.98%
+  49  P55118_RecName_Full_Leukotoxin__Short_Lkt_Mannheimia_haemolytica                                                                  23.45%    passed     98.08%
+  50  WP_005597652_RTX_family_hemolysin_Actinobacillus_pleuropneumoniae                                                                 23.21%    passed     58.09%
+  51  BAV25208_ApxII_toxin_Actinobacillus_pleuropneumoniae_serovar_8                                                                    23.21%    passed     60.70%
+  52  WP_039709150_RTX_family_hemolysin_Actinobacillus_pleuropneumoniae                                                                 23.21%    passed     59.06%
+  53  BAV25240_RTX-II_toxin_determinant_A_Actinobacillus_pleuropneumoniae_serovar_2                                                     23.21%    passed     55.25%
+  54  WP_138317745_RTX_family_hemolysin_Mannheimia_varigena                                                                             23.45%    passed     99.54%
+  55  AAO74635_ApxIIA_Actinobacillus_pleuropneumoniae                                                                                   23.21%    passed     58.63%
+  56  WP_005817645_RTX_family_hemolysin_Actinobacillus_minor                                                                            23.21%    passed     59.70%
+  57  SUT87072_hemolysin_A_Actinobacillus_rossii                                                                                        23.21%    passed     54.22%
+  58  BAV25211_ApxII_toxin_Actinobacillus_pleuropneumoniae_serovar_8                                                                    23.21%    passed     50.72%
+  59  BAV25206_ApxII_toxin_Actinobacillus_pleuropneumoniae_serovar_8                                                                    23.21%    passed     64.75%
+  60  AAK50052_RTX_toxin_IIA_Actinobacillus_pleuropneumoniae                                                                            23.21%    passed     61.96%
+  61  BAV25204_ApxII_toxin_Actinobacillus_pleuropneumoniae_serovar_15                                                                   23.21%    passed     57.74%
+  62  WP_005608143_RTX_family_hemolysin_Actinobacillus_pleuropneumoniae                                                                 23.21%    passed     58.72%
+  63  WP_011848504_RTX_family_hemolysin_Actinobacillus_pleuropneumoniae                                                                 23.21%    passed     56.45%
+  64  WP_025247069_RTX_family_hemolysin_Mannheimia_varigena                                                                             23.45%    passed     99.55%
+  65  WP_025343152_RTX_family_hemolysin_Mannheimia_varigena                                                                             23.45%    passed     99.48%
+  66  WP_108924696_RTX_family_hemolysin_Actinobacillus_porcitonsillarum                                                                 23.21%    passed     58.95%
+  67  Q9EV31_RecName_Full_Leukotoxin__Short_Lkt_Mannheimia_haemolytica                                                                  23.45%    passed     99.22%
+  68  Q00951_RecName_Full_Hemolysin__AltName_Full_APPA__AltName_Full_CLY-IIA__AltName_Full_CYTC__AltName_Full_Cytolysin_II__AltName_F   23.21%    passed     63.31%
+  69  Q9EV32_RecName_Full_Leukotoxin__Short_Lkt_Mannheimia_haemolytica                                                                  23.45%    passed     99.27%
+  70  WP_176807684_MULTISPECIES_RTX_family_hemolysin_Mannheimia                                                                         24.02%    passed     87.71%
+  71  Q9ETX2_RecName_Full_Leukotoxin__Short_Lkt_Mannheimia_glucosida                                                                    23.45%    passed     97.87%
+  72  WP_154703687_RTX_family_hemolysin_Mannheimia_haemolytica                                                                          23.45%    passed     98.64%
+  73  AAG40306_leukotoxin_Mannheimia_glucosida                                                                                          23.45%    passed     98.18%
+  74  WP_126301485_RTX_family_hemolysin_Mannheimia_haemolytica                                                                          23.45%    passed     97.68%
+  75  AAR09165_leukotoxin_structural_protein_Mannheimia_ruminalis                                                                       23.45%    passed     98.77%
+  76  AAG40305_leukotoxin_Mannheimia_glucosida                                                                                          24.02%    passed     98.15%
+  77  WP_226317935_RTX_family_hemolysin_Mannheimia_haemolytica                                                                          23.45%    passed     99.61%
+  78  Q9EV33_RecName_Full_Leukotoxin__Short_Lkt_Mannheimia_haemolytica                                                                  23.45%    passed     99.31%
+  79  WP_061888577_RTX_family_hemolysin_Mannheimia_haemolytica                                                                          23.45%    passed     99.56%
+  80  AAG40300_leukotoxin_Mannheimia_haemolytica                                                                                        23.45%    passed     99.66%
+  81  WP_015433040_RTX_family_hemolysin_Bibersteinia_trehalosi                                                                          23.29%    passed     95.08%
+  82  WP_025235104_RTX_family_hemolysin_Mannheimia_sp._USDA-ARS-USMARC-1261                                                             23.78%    passed     99.61%
+  83  WP_020831007_RTX_family_hemolysin_Mannheimia_haemolytica                                                                          23.45%    passed     99.39%
+  84  WP_025289668_RTX_family_hemolysin_Bibersteinia_trehalosi                                                                          23.29%    passed     96.12%
+  85  WP_131928249_RTX_family_hemolysin_Bibersteinia_trehalosi                                                                          23.29%    passed     96.99%
+  86  WP_027073401_RTX_family_hemolysin_Mannheimia_granulomatis                                                                         23.37%    passed     50.47%
+  87  WP_176671955_RTX_family_hemolysin_Mannheimia_varigena                                                                             23.45%    passed     99.71%
+  88  WP_240027435_RTX_family_hemolysin_Mannheimia_haemolytica                                                                          23.61%    passed     99.61%
+  89  WP_015484526_RTX_family_hemolysin_Mannheimia_haemolytica                                                                          23.45%    passed     92.25%
+  90  WP_075271816_RTX_family_hemolysin_Mannheimia_haemolytica                                                                          23.45%    passed     99.07%
+  91  WP_240018706_RTX_family_hemolysin_Mannheimia_haemolytica                                                                          23.53%    passed     99.66%
+  92  WP_006250815_RTX_family_hemolysin_Mannheimia_haemolytica                                                                          23.45%    passed     94.50%
+  93  WP_275686858_RTX_family_hemolysin_Mannheimia_haemolytica                                                                          23.61%    passed     99.61%
+  94  WP_006248023_RTX_family_hemolysin_Mannheimia_haemolytica                                                                          23.45%    passed     91.68%
+  95  WP_044427865_RTX_family_hemolysin_Mannheimia_haemolytica                                                                          23.45%    passed     92.60%
+  96  WP_112110370_RTX_family_hemolysin_Mannheimia_varigena                                                                             23.45%    passed     99.76%
+  97  WP_240026806_RTX_family_hemolysin_Mannheimia_haemolytica                                                                          23.69%    passed     99.64%
+  98  WP_249763748_RTX_family_hemolysin_Mannheimia_haemolytica                                                                          23.45%    passed     93.03%
+  99  WP_240020485_RTX_family_hemolysin_Mannheimia_haemolytica                                                                          23.53%    passed     91.88%
+ 100  WP_042801840_RTX_family_hemolysin_Mannheimia_granulomatis                                                                         24.02%    passed     86.30%
+ 101  WP_240028587_RTX_family_hemolysin_Mannheimia_haemolytica                                                                          23.61%    passed     99.56%
+ 102  WP_178218929_RTX_family_hemolysin_Mannheimia_varigena                                                                             23.86%    passed     99.52%
+ 103  WP_240030182_RTX_family_hemolysin_Mannheimia_haemolytica                                                                          23.53%    passed     99.61%
+ 104  WP_021279474_RTX_family_hemolysin_Mannheimia_haemolytica                                                                          23.45%    passed     89.48%
+ 105  Q9EV30_RecName_Full_Leukotoxin__Short_Lkt_Mannheimia_haemolytica                                                                  23.45%    passed     88.71%
+ 106  WP_159628657_RTX_family_hemolysin_Mannheimia_ovis                                                                                 24.02%    passed     97.73%
+ 107  AAB36691_LktA_Mannheimia_haemolytica                                                                                              23.45%    passed     92.68%
+ 108  AAA25543_leukotoxin_membrane_protein__LktA__Mannheimia_haemolytica                                                                23.45%    passed     92.25%
+ 109  WP_075271750_hemolysin_Mannheimia_haemolytica                                                                                     20.00%    passed     99.03%
+ 110  P55123_RecName_Full_Leukotoxin__AltName_Full_PlLkt_Mannheimia_cf._haemolytica                                                     23.94%    passed     14.74%
+ 111  CAA81206_leukotoxin_A_Mannheimia_haemolytica                                                                                      23.29%    passed     90.64%
+ 112  WP_102993975_hemolysin_Psychrobacter_sp._FDAARGOS_221                                                                             19.52%    passed     67.15%
+ 113  WP_006252564_RTX_family_hemolysin_Mannheimia_haemolytica                                                                          23.37%    passed     97.78%
+ 114  WP_142789464_RTX_family_hemolysin_Mannheimia_haemolytica                                                                          23.37%    passed     98.01%
+ 115  AAM45569_AqxA_Actinobacillus_equuli                                                                                               20.72%    passed     44.94%
+ 116  WP_275218365_RTX_family_hemolysin_Actinobacillus_equuli                                                                           20.72%    passed     49.91%
+ 117  AAM45566_AqxA_Actinobacillus_equuli_subsp._haemolyticus                                                                           20.72%    passed     47.71%
+ 118  WP_214193243_RTX_family_hemolysin_Morganella_morganii                                                                             17.75%    passed     99.35%
+ 119  WP_163623468_RTX_family_hemolysin_Morganella_morganii                                                                             17.75%    passed     99.55%
+ 120  KJY05801_Hemolysin_chromosomal_Morganella_morganii                                                                                23.37%    passed     94.70%
+ 121  WP_186702008_RTX_family_hemolysin_Morganella_morganii                                                                             17.75%    passed     99.64%
+ 122  WP_102831072_RTX_family_hemolysin_Morganella_morganii                                                                             17.27%    passed     99.42%
+ 123  WP_214189610_RTX_family_hemolysin_Morganella_morganii                                                                             17.75%    passed     99.60%
+ 124  WP_119312834_RTX_family_hemolysin_Morganella_morganii                                                                             17.75%    passed     99.66%
+ 125  WP_219314892_RTX_family_hemolysin_Morganella_morganii                                                                             17.75%    passed     99.52%
+ 126  WP_061057382_RTX_family_hemolysin_Morganella_morganii                                                                             17.75%    passed     99.53%
+ 127  WP_101924031_RTX_family_hemolysin_Morganella_morganii                                                                             17.75%    passed     99.53%
+ 128  HBL6944346_RTX_family_hemolysin_Morganella_morganii                                                                               17.75%    passed     99.47%
+ 129  WP_112548256_RTX_family_hemolysin_Morganella_morganii                                                                             17.75%    passed     99.64%
+ 130  WP_036418382_RTX_family_hemolysin_Morganella_sp._EGD-HP17                                                                         17.75%    passed     99.55%
+ 131  WP_125112404_RTX_family_hemolysin_Morganella_morganii                                                                             17.75%    passed     98.99%
+ 132  WP_081120390_RTX_family_hemolysin_Morganella_morganii                                                                             17.75%    passed     99.57%
+ 133  WP_048822350_RTX_family_hemolysin_Morganella_morganii                                                                             17.75%    passed     98.98%
+ 134  HCD1108729_RTX_family_hemolysin_Morganella_morganii                                                                               17.75%    passed     99.62%
+ 135  WP_098935558_RTX_family_hemolysin_Morganella_morganii                                                                             17.75%    passed     99.45%
+ 136  WP_214208937_RTX_family_hemolysin_Morganella_morganii                                                                             17.75%    passed     99.52%
+ 137  MBG3039985_RTX_family_hemolysin_Proteus_mirabilis                                                                                 17.75%    passed     98.71%
+ 138  WP_141178301_RTX_family_hemolysin_Morganella_morganii                                                                             17.67%    passed     98.80%
+ 139  MBG2711994_RTX_family_hemolysin_Proteus_mirabilis                                                                                 17.75%    passed     98.57%
+ 140  WP_187305431_RTX_family_hemolysin_Morganella_morganii                                                                             17.75%    passed     99.06%
+ 141  WP_219649365_RTX_family_hemolysin_Yersinia_enterocolitica                                                                         18.07%    passed     95.83%
+ 142  WP_250170602_RTX_family_hemolysin_Providencia_thailandensis                                                                       17.75%    passed     98.61%
+ 143  WP_193829395_RTX_family_hemolysin_Morganella_morganii                                                                             17.75%    passed     99.64%
+ 144  WP_052125934_RTX_family_hemolysin_Morganella_morganii                                                                             18.80%    passed     96.64%
+ 145  WP_204083249_RTX_toxin_hemolysin_HlyA_Enterobacter_hormaechei                                                                     17.75%    passed     99.97%
+ 146  EHU5252158_RTX_toxin_hemolysin_HlyA_Salmonella_enterica_subsp._enterica_serovar_Havana                                            17.75%    passed     99.96%
+ 147  WP_045895738_RTX_toxin_hemolysin_HlyA_Enterobacter_hormaechei                                                                     17.75%    passed     99.98%
+ 148  WP_161727706_RTX_family_hemolysin_Proteus_sp._G2671                                                                               17.75%    passed     98.74%
+ 149  WP_063922046_MULTISPECIES_RTX_toxin_hemolysin_HlyA_Enterobacteriaceae                                                             17.75%    passed     99.98%
+ 150  WP_161729915_RTX_family_hemolysin_Proteus_sp._G2666                                                                               17.75%    passed     98.86%
+ 151  EFW7483941_RTX_toxin_hemolysin_A_Shigella_sonnei                                                                                  17.75%    passed     99.99%
+ 152  EBX0388632_RTX_toxin_hemolysin_A_Salmonella_enterica_subsp._enterica_serovar_Newport                                              17.75%    passed     99.99%
+ 153  WP_001142374_MULTISPECIES_RTX_toxin_hemolysin_HlyA_Escherichia                                                                    17.75%    passed     99.98%
+ 154  WP_214189068_RTX_family_hemolysin_Morganella_morganii                                                                             17.75%    passed     98.24%
+ 155  WP_219515768_RTX_family_hemolysin_Proteus_penneri                                                                                 17.75%    passed     98.70%
+ 156  WP_161669176_MULTISPECIES_RTX_family_hemolysin_Proteus                                                                            17.75%    passed     99.06%
+ 157  EFP6124990_RTX_toxin_hemolysin_HlyA_Shigella_flexneri                                                                             17.75%    passed     99.98%
+ 158  WP_126395238_RTX_family_hemolysin_Actinobacillus_pleuropneumoniae                                                                 15.66%    passed     98.81%
+ 159  WP_161707122_MULTISPECIES_RTX_family_hemolysin_Proteus                                                                            17.75%    passed     99.06%
+ 160  BAV25197_ApxIII_toxin_Actinobacillus_pleuropneumoniae_serovar_8                                                                   15.50%    passed     98.38%
+ 161  WP_161706586_MULTISPECIES_RTX_family_hemolysin_unclassified_Proteus__in_enterobacteria_                                           17.75%    passed     99.06%
+ 162  AIT40265_RTX-III_toxin_determinant_A_Actinobacillus_pleuropneumoniae                                                              15.50%    passed     97.83%
+ 163  VTQ29868_calcium_binding_hemolysin-like_protein_Streptococcus_pneumoniae                                                          17.75%    passed     99.99%
+ 164  WP_156008849_RTX_toxin_hemolysin_HlyA_Shigella_sonnei                                                                             17.75%    passed     99.99%
+ 165  WP_161729641_RTX_family_hemolysin_Proteus_sp._G2661                                                                               17.59%    passed     99.01%
+ 166  BAV25198_ApxIII_toxin_Actinobacillus_pleuropneumoniae_serovar_8                                                                   15.50%    passed     98.23%
+ 167  SUB34502_Hemolysin_chromosomal_Pasteurella_mairii                                                                                 15.74%    passed     98.18%
+ 168  WP_161706846_RTX_family_hemolysin_Proteus_sp._G2660                                                                               17.75%    passed     99.24%
+ 169  WP_115065133_RTX_family_hemolysin_Proteus_penneri                                                                                 17.75%    passed     98.91%
+ 170  EFM89517_Hemolysin_plasmid_Actinobacillus_pleuropneumoniae_serovar_4_str._M62                                                     15.98%    passed     96.66%
+ 171  WP_005620396_RTX_family_hemolysin_Actinobacillus_pleuropneumoniae                                                                 15.50%    passed     97.81%
+ 172  WP_109848524_RTX_family_hemolysin_Proteus_penneri                                                                                 17.75%    passed     99.36%
+ 173  WP_005601912_RTX_family_hemolysin_Actinobacillus_pleuropneumoniae                                                                 15.66%    passed     98.74%
+ 174  WP_012263184_RTX_family_hemolysin_Actinobacillus_pleuropneumoniae                                                                 15.50%    passed     97.25%
+ 175  WP_237698394_RTX_family_hemolysin_Actinobacillus_pleuropneumoniae                                                                 16.14%    passed     98.07%
+ 176  Q9RCG8_RecName_Full_Exotoxin_PaxA_Pasteurella_aerogenes                                                                           15.74%    passed     98.25%
+ 177  WP_001142370_MULTISPECIES_RTX_toxin_hemolysin_HlyA_Enterobacteriaceae                                                             17.75%    passed     99.99%
+ 178  WP_161769814_RTX_family_hemolysin_Proteus_sp._G2672                                                                               17.75%    passed     97.51%
+ 179  WP_161671444_MULTISPECIES_RTX_family_hemolysin_Proteus                                                                            17.75%    passed     97.18%
+ 180  WP_100158705_RTX_family_hemolysin_Proteus_columbae                                                                                17.59%    passed     98.51%
+ 181  WP_235366003_RTX_family_hemolysin_Proteus_terrae                                                                                  17.83%    passed     99.53%
+ 182  WP_111750239_MULTISPECIES_RTX_family_hemolysin_Glaesserella                                                                       14.70%    passed     70.22%
+ 183  WP_080860590_RTX_family_hemolysin_Citrobacter_braakii                                                                             17.75%    passed     98.51%
+ 184  KAE9908266_RTX_toxin_hemolysin_HlyA_Enterobacteriaceae_bacterium_TzEc051                                                          17.75%    passed     99.99%
+ 185  EAO9153049_RTX_toxin_hemolysin_A_Salmonella_enterica                                                                              17.75%    passed     99.96%
+ 186  SUT92923_RTX-III_toxin_determinant_A_from_serotype_8_Actinobacillus_rossii                                                        15.50%    passed     97.62%
+ 187  NBN58278_RTX_toxin_hemolysin_HlyA_Proteus_sp._G2639                                                                               17.75%    passed     99.97%
+ 188  WP_001142367_MULTISPECIES_RTX_toxin_hemolysin_HlyA_Escherichia                                                                    17.75%    passed     99.98%
+ 189  EAR9626190_RTX_toxin_hemolysin_A_Salmonella_enterica                                                                              17.75%    passed     99.98%
+ 190  WP_039022831_MULTISPECIES_RTX_toxin_hemolysin_HlyA_Enterobacteriaceae                                                             17.75%    passed     99.97%
+ 191  WP_000208154_MULTISPECIES_RTX_toxin_hemolysin_HlyA_Escherichia                                                                    17.75%    passed     99.99%
+ 192  WP_150540254_RTX_family_hemolysin_Actinobacillus_vicugnae                                                                         18.88%    passed     93.26%
+ 193  BAV25196_ApxIII_toxin_Actinobacillus_pleuropneumoniae_serovar_8                                                                   15.50%    passed     98.09%
+ 194  EFB2228927_RTX_toxin_hemolysin_A_Escherichia_albertii                                                                             17.75%    passed     99.97%
+ 195  AAK50053_RTX-toxin_IIIA_Actinobacillus_pleuropneumoniae                                                                           15.50%    passed     97.83%
+ 196  EHY5891758_RTX_toxin_hemolysin_HlyA_Shigella_sonnei                                                                               17.75%    passed     99.98%
+ 197  P55130_RecName_Full_RTX-III_toxin_determinant_A_from_serotype_2__AltName_Full_APX-IIIA__AltName_Full_Cytolysin_IIIA__Short_CLY-   15.74%    passed     97.07%
+ 198  EIH5005026_RTX_toxin_hemolysin_HlyA_Shigella_boydii                                                                               17.75%    passed     99.99%
+ 199  EBR2769049_RTX_toxin_hemolysin_A_Salmonella_enterica                                                                              17.75%    passed     99.74%
+ 200  MBH5326244_RTX_family_hemolysin_Salmonella_enterica                                                                               17.75%    passed     97.48%
+ 201  KIE91362_putative_RTX-II_toxin_determinant_A_Actinobacillus_pleuropneumoniae                                                      46.10%    failed      0.02%
+ 202  WP_194811697_RTX_family_hemolysin_Rodentibacter_haemolyticus                                                                      18.88%    passed     53.33%
+ 203  EGR3375768_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          20.80%    passed     79.16%
+ 204  WP_226692501_RTX_family_hemolysin_Rodentibacter_sp._JRC1                                                                          18.88%    passed     56.96%
+ 205  EJG1716528_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.80%    passed     78.92%
+ 206  OQK22100_Hemolysin_chromosomal_Vibrio_parahaemolyticus                                                                            20.80%    passed     81.21%
+ 207  MCQ9039909_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.80%    passed     87.12%
+ 208  MBE3846867_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.80%    passed     85.65%
+ 209  EJG1656631_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.80%    passed     86.14%
+ 210  OUD38493_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                            20.80%    passed     76.64%
+ 211  EJG1668690_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.80%    passed     74.99%
+ 212  EGR1145930_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          20.80%    passed     88.07%
+ 213  KOY35573_exotoxin_Vibrio_parahaemolyticus                                                                                         20.80%    passed     78.17%
+ 214  EGR3370789_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          20.80%    passed     78.26%
+ 215  UPR40757_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                             20.80%    passed     77.00%
+ 216  TOK63154_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                            20.80%    passed     81.46%
+ 217  EHK5111024_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.80%    passed     78.47%
+ 218  P55128_RecName_Full_RTX-I_toxin_determinant_A_from_serotypes_1/9__AltName_Full_APX-IA__AltName_Full_ApxI__AltName_Full_Cytolysi   17.83%    failed      0.87%
+ 219  HCE1795912_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           21.20%    passed     83.31%
+ 220  EGR1171051_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          20.80%    passed     82.40%
+ 221  EGQ7868349_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           21.20%    passed     85.17%
+ 222  AVF62349_RTX_toxin_hemolysin_A_Vibrio_diabolicus                                                                                  20.80%    passed     79.85%
+ 223  THE58972_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                            20.80%    passed     77.62%
+ 224  WP_275579048_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                         20.80%    passed     78.31%
+ 225  EID7757083_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           21.45%    passed     87.51%
+ 226  EGU8351379_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.48%    passed     72.00%
+ 227  EJG1796508_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           21.20%    passed     86.15%
+ 228  WP_083112292_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                         20.80%    passed     73.45%
+ 229  EIW7482785_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.80%    passed     72.78%
+ 230  EGR3365651_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          20.80%    passed     81.90%
+ 231  EQM44790_hemolysin_chromosomal_Vibrio_parahaemolyticus_NIHCB0757                                                                  21.93%    passed     79.52%
+ 232  EGQ8138106_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.32%    passed     76.00%
+ 233  EJI6688748_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.80%    passed     73.83%
+ 234  ART85669_RTX-I_toxin_determinant_A_partial_Actinobacillus_pleuropneumoniae                                                        17.91%    passed     30.99%
+ 235  EII2985771_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.80%    passed     73.45%
+ 236  EGQ8368356_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           21.20%    passed     75.09%
+ 237  EJG1692441_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.80%    passed     77.91%
+ 238  EHK5158420_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           21.37%    passed     77.83%
+ 239  EGQ8345350_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           21.20%    passed     77.88%
+ 240  HCM0558123_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.80%    passed     82.14%
+ 241  HCM0678834_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.80%    passed     76.26%
+ 242  EIJ2988108_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.64%    passed     83.33%
+ 243  ATA66062_hemolysin_Vibrio_parahaemolyticus                                                                                        20.80%    passed     74.08%
+ 244  WP_045616743_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                         20.80%    passed     85.82%
+ 245  EGR1597367_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          20.80%    passed     75.46%
+ 246  EGR1304268_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          21.12%    passed     87.77%
+ 247  HCG8609808_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.80%    passed     87.12%
+ 248  HCG6028740_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.80%    passed     82.78%
+ 249  EGQ8416589_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.80%    passed     73.61%
+ 250  EGR0395309_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          20.80%    passed     78.68%
+ 251  EGQ9702602_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          21.04%    passed     74.06%
+ 252  EGV2732662_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          23.29%    passed     76.47%
+ 253  WP_041955411_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                         20.80%    passed     80.26%
+ 254  EGR3135358_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          20.80%    failed      2.18%
+ 255  EIS4858117_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.80%    passed     75.46%
+ 256  EGR3102028_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          20.80%    failed      2.10%
+ 257  EGQ7740720_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.80%    passed     77.16%
+ 258  EJC7968771_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.80%    passed     73.62%
+ 259  EGR1567771_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          22.25%    passed     78.14%
+ 260  EGR1975733_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          20.80%    passed     73.83%
+ 261  WP_005598583_RTX_family_hemolysin_ApxIA_Actinobacillus_pleuropneumoniae                                                           17.91%    passed     40.26%
+ 262  WP_205767291_RTX_family_leukotoxin_LtxA_Aggregatibacter_actinomycetemcomitans                                                     15.58%    passed     47.76%
+ 263  ART85670_RTX-I_toxin_determinant_A_partial_Actinobacillus_pleuropneumoniae                                                        17.91%    passed     31.18%
+ 264  ART85666_RTX-I_toxin_determinant_A_partial_Actinobacillus_pleuropneumoniae                                                        17.91%    passed     34.73%
+ 265  ART85678_RTX-I_toxin_determinant_A_partial_Actinobacillus_pleuropneumoniae                                                        17.91%    passed     32.93%
+ 266  ART85674_RTX-I_toxin_determinant_A_partial_Actinobacillus_pleuropneumoniae                                                        17.91%    passed     25.80%
+ 267  ART85675_RTX-I_toxin_determinant_A_partial_Actinobacillus_pleuropneumoniae                                                        17.91%    passed     24.52%
+ 268  ART85677_RTX-I_toxin_determinant_A_partial_Actinobacillus_pleuropneumoniae                                                        17.91%    passed     29.55%
+ 269  ART85676_RTX-I_toxin_determinant_A_partial_Actinobacillus_pleuropneumoniae                                                        17.91%    passed     30.00%
+ 270  ART85668_RTX-I_toxin_determinant_A_partial_Actinobacillus_pleuropneumoniae                                                        17.91%    passed     29.16%
+ 271  AAB17220_RTX-1_toxin_determinant_Actinobacillus_pleuropneumoniae                                                                  17.91%    passed     34.02%
+ 272  ART85671_RTX-I_toxin_determinant_A_partial_Actinobacillus_pleuropneumoniae                                                        17.91%    passed     28.35%
+ 273  WP_005612908_RTX_family_hemolysin_ApxIA_Actinobacillus_pleuropneumoniae                                                           17.91%    passed     33.34%
+ 274  ART85667_RTX-I_toxin_determinant_A_partial_Actinobacillus_pleuropneumoniae                                                        17.91%    passed     27.91%
+ 275  ART85672_RTX-I_toxin_determinant_A_partial_Actinobacillus_pleuropneumoniae                                                        17.91%    passed     36.34%
+ 276  TOF67817_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                            20.80%    passed     75.74%
+ 277  EGR1549827_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          20.80%    passed     75.24%
+ 278  WP_015674428_RTX_family_hemolysin_ApxIA_Actinobacillus_suis                                                                       17.91%    passed     40.96%
+ 279  WP_205775035_RTX_family_hemolysin_Aggregatibacter_actinomycetemcomitans                                                           15.58%    passed     48.94%
+ 280  WP_005578814_RTX_family_leukotoxin_LtxA_Aggregatibacter_actinomycetemcomitans                                                     15.58%    passed     51.62%
+ 281  EJG0859951_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           22.89%    passed     87.11%
+ 282  TNY57332_RTX_toxin_hemolysin_A_partial_Vibrio_parahaemolyticus                                                                    26.75%    passed     88.87%
+ 283  ACU43586_RTX-I_toxin_determinant_A_Actinobacillus_pleuropneumoniae                                                                17.91%    passed     31.90%
+ 284  WP_205769948_RTX_family_leukotoxin_LtxA_Aggregatibacter_actinomycetemcomitans                                                     15.58%    passed     48.41%
+ 285  EGR3270289_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          22.57%    passed     77.82%
+ 286  AAK50051_RTX_toxin_IA_Actinobacillus_pleuropneumoniae                                                                             17.91%    failed      0.30%
+ 287  EGR3299435_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          22.09%    passed     90.91%
+ 288  EGQ7683815_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           21.12%    passed     88.44%
+ 289  EGR0621917_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          20.96%    passed     86.71%
+ 290  EJG1203798_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.80%    passed     80.11%
+ 291  WP_020842386_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                         20.80%    passed     84.65%
+ 292  EJB0376072_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.96%    passed     83.90%
+ 293  EGQ7827393_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.80%    passed     84.93%
+ 294  WP_205770996_RTX_family_hemolysin_Aggregatibacter_actinomycetemcomitans                                                           15.34%    passed     43.52%
+ 295  WP_205773490_RTX_family_leukotoxin_LtxA_Aggregatibacter_actinomycetemcomitans                                                     15.34%    passed     44.89%
+ 296  WP_233119004_RTX_family_leukotoxin_LtxA_Aggregatibacter_actinomycetemcomitans                                                     15.26%    passed     29.55%
+ 297  WP_148333322_RTX_family_leukotoxin_LtxA_Aggregatibacter_actinomycetemcomitans                                                     15.26%    passed     26.55%
+ 298  EIF5069361_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           20.96%    failed      4.51%
+ 299  WP_005557902_RTX_family_leukotoxin_LtxA_Aggregatibacter_actinomycetemcomitans                                                     15.26%    passed     30.69%
+ 300  WP_148335754_RTX_family_leukotoxin_LtxA_Aggregatibacter_actinomycetemcomitans                                                     15.26%    passed     26.98%
+ 301  WP_061886534_RTX_family_leukotoxin_LtxA_partial_Aggregatibacter_actinomycetemcomitans                                             16.47%    passed     28.45%
+ 302  EJC7159163_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           24.58%    passed     56.97%
+ 303  NBM92272_RTX_family_hemolysin_Proteus_sp._G2662                                                                                   25.06%    passed     86.38%
+ 304  WP_258305148_RTX_family_leukotoxin_LtxA_Aggregatibacter_actinomycetemcomitans                                                     15.26%    passed     36.50%
+ 305  WP_148324981_RTX_family_leukotoxin_LtxA_Aggregatibacter_actinomycetemcomitans                                                     15.26%    passed     34.19%
+ 306  WP_053330071_RTX_family_leukotoxin_LtxA_Aggregatibacter_actinomycetemcomitans                                                     15.26%    passed     30.74%
+ 307  WP_005537925_RTX_family_leukotoxin_LtxA_Aggregatibacter_actinomycetemcomitans                                                     15.26%    passed     33.88%
+ 308  ABB70025_ApxIICA_partial_Actinobacillus_rossii                                                                                    49.96%    failed      0.01%
+ 309  ABB70022_ApxIICA_partial_Actinobacillus_rossii                                                                                    50.12%    passed     23.04%
+ 310  EBJ5114620_hypothetical_protein_Salmonella_enterica                                                                               29.16%    passed     87.82%
+ 311  P55129_RecName_Full_RTX-I_toxin_determinant_A_from_serotypes_5/10__AltName_Full_APX-IA__AltName_Full_Cytolysin_IA__Short_CLY-IA   17.83%    failed      0.44%
+ 312  EGR3255124_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          22.81%    passed     93.50%
+ 313  AAR09157_leukotoxin_structural_protein_partial_Mannheimia_granulomatis                                                            52.13%    failed      4.57%
+ 314  EHC9829428_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           25.06%    passed     82.47%
+ 315  WP_005567703_RTX_family_leukotoxin_LtxA_Aggregatibacter_actinomycetemcomitans                                                     15.26%    passed     36.56%
+ 316  WP_233141422_RTX_family_leukotoxin_LtxA_Aggregatibacter_actinomycetemcomitans                                                     15.26%    passed     38.25%
+ 317  EGR3477100_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          25.38%    passed     86.25%
+ 318  ABB70023_ApxIICA_partial_Actinobacillus_rossii                                                                                    50.52%    passed     21.12%
+ 319  WP_233140609_RTX_family_leukotoxin_LtxA_Aggregatibacter_actinomycetemcomitans                                                     15.26%    passed     35.97%
+ 320  WP_181668581_RTX_family_hemolysin_Escherichia_fergusonii                                                                          18.07%    failed      0.00%
+ 321  WP_181669074_RTX_family_hemolysin_Escherichia_fergusonii                                                                          18.07%    failed      0.00%
+ 322  WP_205765037_RTX_family_hemolysin_Aggregatibacter_actinomycetemcomitans                                                           15.10%    passed     32.98%
+ 323  WP_079751934_RTX_family_hemolysin_partial_Vibrio_parahaemolyticus                                                                 25.62%    passed     85.45%
+ 324  AAR09161_leukotoxin_structural_protein_partial_Mannheimia_varigena                                                                53.33%    passed     17.53%
+ 325  EFY3253279_enterohemolysin_EhxA_Shigella_sonnei                                                                                   25.86%    passed     95.33%
+ 326  MCG9766778_RTX_toxin_hemolysin_A_Vibrio_alginolyticus                                                                             74.78%    passed     14.56%
+ 327  EFW8140897_enterohemolysin_EhxA_Shigella_sonnei                                                                                   26.99%    passed     95.54%
+ 328  EFW8111391_enterohemolysin_EhxA_Shigella_sonnei                                                                                   19.84%    passed     98.21%
+ 329  MCM9140930_enterohemolysin_EhxA_Salmonella_enterica                                                                               19.92%    passed     98.34%
+ 330  EFW4528279_enterohemolysin_Shigella_flexneri                                                                                      30.20%    passed     93.52%
+ 331  EFX7253477_enterohemolysin_EhxA_Shigella_sonnei                                                                                   19.84%    passed     97.58%
+ 332  EFW7022841_enterohemolysin_EhxA_Shigella_sonnei                                                                                   19.84%    passed     97.97%
+ 333  EGD7153476_enterohemolysin_Shigella_dysenteriae                                                                                   19.84%    passed     98.76%
+ 334  EFW3276782_enterohemolysin_EhxA_Shigella_flexneri                                                                                 19.84%    passed     98.67%
+ 335  EFT1064260_enterohemolysin_EhxA_Shigella_sonnei                                                                                   19.84%    passed     97.63%
+ 336  WP_075330353_enterohemolysin_EhxA_Shigella_boydii                                                                                 19.84%    passed     98.98%
+ 337  EFW3262513_enterohemolysin_EhxA_Shigella_flexneri                                                                                 20.56%    passed     98.12%
+ 338  EIG4691295_enterohemolysin_EhxA_Shigella_sonnei                                                                                   20.96%    passed     94.96%
+ 339  EFW4737610_enterohemolysin_EhxA_Shigella_sonnei                                                                                   19.84%    passed     96.97%
+ 340  EFW7513209_enterohemolysin_EhxA_Shigella_sonnei                                                                                   19.84%    passed     96.82%
+ 341  EFY3267764_enterohemolysin_EhxA_Shigella_sonnei                                                                                   22.25%    passed     95.99%
+ 342  EXJ39491_hemolysin_chromosomal_Vibrio_parahaemolyticus_VPTS-2010                                                                  26.59%    passed     76.08%
+ 343  MCI7366436_enterohemolysin_EhxA_Clostridium_innocuum                                                                              19.84%    passed     98.70%
+ 344  EJT2769114_enterohemolysin_EhxA_Shigella_sonnei                                                                                   19.84%    passed     99.17%
+ 345  EFP9271717_enterohemolysin_EhxA_Shigella_flexneri                                                                                 19.84%    passed     96.68%
+ 346  EIG2642853_enterohemolysin_EhxA_Shigella_sonnei                                                                                   19.84%    passed     96.91%
+ 347  WP_000217752_MULTISPECIES_enterohemolysin_EhxA_Escherichia                                                                        19.92%    passed     98.58%
+ 348  EFW7917586_enterohemolysin_EhxA_Shigella_sonnei                                                                                   21.20%    passed     96.95%
+ 349  EFW4747705_enterohemolysin_EhxA_Shigella_sonnei                                                                                   19.84%    passed     98.97%
+ 350  EAE5926450_enterohemolysin_Listeria_monocytogenes                                                                                 19.84%    passed     98.87%
+ 351  EFW8301171_enterohemolysin_EhxA_Shigella_flexneri                                                                                 20.32%    passed     98.91%
+ 352  AAA21922_leukotoxin__LtA__Aggregatibacter_actinomycetemcomitans                                                                   15.66%    failed      0.00%
+ 353  EFW7017842_enterohemolysin_EhxA_Shigella_sonnei                                                                                   23.29%    passed     91.81%
+ 354  EGR1783148_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          28.76%    passed     67.89%
+ 355  EHY8868568_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           27.63%    failed      1.20%
+ 356  EGR1325797_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          27.47%    passed     85.91%
+ 357  EGQ8749761_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           29.96%    passed     83.13%
+ 358  EGQ9697791_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          30.12%    passed     80.42%
+ 359  EGR1589663_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          29.80%    passed     72.24%
+ 360  WP_105279262_enterohemolysin_EhxA_Escherichia_sp._MOD1-EC1915                                                                     19.84%    passed     98.63%
+ 361  EJE7372538_enterohemolysin_EhxA_Shigella_dysenteriae                                                                              38.88%    passed     84.42%
+ 362  KYY52095_HlyA_family_RTX_toxin_Vibrio_parahaemolyticus                                                                            30.84%    passed     83.74%
+ 363  OEA25001_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                            30.84%    passed     72.34%
+ 364  KHF04179_exotoxin_Vibrio_parahaemolyticus                                                                                         30.84%    passed     81.00%
+ 365  EAN2945072_hypothetical_protein_Salmonella_enterica                                                                               28.27%    failed      1.88%
+ 366  OAR46739_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                            30.84%    passed     73.47%
+ 367  KYX71898_HlyA_family_RTX_toxin_Vibrio_parahaemolyticus                                                                            30.84%    passed     72.84%
+ 368  ODW50563_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                            30.84%    passed     73.86%
+ 369  WP_140081114_RTX_family_hemolysin_partial_Vibrio_parahaemolyticus                                                                 33.25%    passed     89.68%
+ 370  OAR27784_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                            30.84%    passed     73.76%
+ 371  KYX34239_HlyA_family_RTX_toxin_Vibrio_parahaemolyticus                                                                            30.84%    passed     87.16%
+ 372  EGQ8695750_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           33.25%    passed     87.20%
+ 373  EJF9950285_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           32.13%    passed     81.96%
+ 374  SUT94307_RTX-I_toxin_determinant_A_Actinobacillus_lignieresii                                                                     30.28%    passed     18.34%
+ 375  EJG0540610_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           32.37%    passed     82.23%
+ 376  AFM38104_RtxA_partial_Kingella_kingae                                                                                             75.66%    failed      0.04%
+ 377  EGR1394347_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          33.01%    passed     77.99%
+ 378  EIX1505983_hypothetical_protein_Cronobacter_sakazakii                                                                             30.44%    failed      0.08%
+ 379  EJG0161923_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           33.17%    passed     78.01%
+ 380  EGR1221749_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          33.49%    passed     75.46%
+ 381  WP_105875151_hypothetical_protein_Cronobacter_malonaticus                                                                         30.44%    failed      0.00%
+ 382  AFM38106_RtxA_partial_Kingella_kingae                                                                                             74.78%    failed      0.02%
+ 383  EII3590142_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           44.26%    passed     89.84%
+ 384  WP_161580834_hypothetical_protein_Cronobacter_muytjensii                                                                          30.44%    failed      0.00%
+ 385  EGR2069806_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          33.57%    passed     81.89%
+ 386  WP_105536046_hypothetical_protein_Cronobacter_sakazakii                                                                           30.44%    failed      0.00%
+ 387  MCG9766801_hypothetical_protein_Vibrio_alginolyticus                                                                              77.83%    passed     46.92%
+ 388  WP_105537445_hypothetical_protein_Cronobacter_turicensis                                                                          30.44%    failed      0.00%
+ 389  WP_105626484_MULTISPECIES_hypothetical_protein_Cronobacter                                                                        30.44%    failed      0.00%
+ 390  EGQ8272763_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           33.90%    passed     73.61%
+ 391  EGQ9809361_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          33.33%    passed     83.08%
+ 392  EGQ8828612_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           34.94%    passed     80.99%
+ 393  AFM38097_RtxA_partial_Kingella_kingae                                                                                             74.78%    failed      0.12%
+ 394  WP_097571216_MULTISPECIES_hypothetical_protein_Cronobacter                                                                        30.44%    failed      0.00%
+ 395  WP_236907959_hypothetical_protein_partial_Cronobacter_sakazakii                                                                   32.05%    failed      0.00%
+ 396  AFM38098_RtxA_partial_Kingella_kingae                                                                                             73.90%    failed      0.04%
+ 397  AFM37564_RtxA_partial_Kingella_kingae                                                                                             73.90%    failed      0.03%
+ 398  WP_085044946_hypothetical_protein_Cronobacter_sakazakii                                                                           30.44%    failed      0.01%
+ 399  EJG0346199_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           34.62%    passed     80.52%
+ 400  STY59834_Leukotoxin_Mannheimia_haemolytica                                                                                        53.33%    passed     36.92%
+ 401  EII5648209_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           34.78%    passed     81.63%
+ 402  WP_032970761_hypothetical_protein_Cronobacter_malonaticus                                                                         30.44%    failed      0.00%
+ 403  EJG1616701_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           47.07%    passed     88.58%
+ 404  HAV1607789_hypothetical_protein_Enterobacter_hormaechei_subsp._steigerwaltii                                                      30.44%    failed      0.00%
+ 405  HBR2685282_hypothetical_protein_Klebsiella_pneumoniae                                                                             32.29%    failed      0.00%
+ 406  HCD8692442_hypothetical_protein_Klebsiella_pneumoniae                                                                             30.44%    failed      0.00%
+ 407  OSL35543_hemolysin_Escherichia_albertii_B156                                                                                      30.28%    failed      0.01%
+ 408  WP_085455910_MULTISPECIES_hypothetical_protein_Escherichia                                                                        30.44%    failed      0.01%
+ 409  WP_016233116_MULTISPECIES_hypothetical_protein_Escherichia                                                                        30.44%    failed      0.01%
+ 410  SUT99284_RTX-I_toxin_determinant_A_Actinobacillus_lignieresii                                                                     34.46%    failed      0.02%
+ 411  HBW1775336_hypothetical_protein_Klebsiella_pneumoniae                                                                             30.44%    failed      0.01%
+ 412  EJG0293881_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           49.00%    passed     84.86%
+ 413  WP_049879013_RTX_family_hemolysin_partial_Vibrio_parahaemolyticus                                                                 37.11%    passed     66.88%
+ 414  AKQ98354_truncated_LktA_Mannheimia_haemolytica                                                                                    59.12%    passed     14.91%
+ 415  STZ19264_Hemolysin_chromosomal_Morganella_morganii                                                                                41.45%    passed     20.99%
+ 416  RFD60508_RTX_toxin_hemolysin_A_partial_Vibrio_parahaemolyticus_3631                                                               53.98%    passed     92.03%
+ 417  ABB70026_ApxIICA_partial_Actinobacillus_rossii                                                                                    67.23%    passed     60.18%
+ 418  HAS6943270_RTX_family_hemolysin_Vibrio_parahaemolyticus                                                                           50.20%    passed     81.59%
+ 419  EJG0176270_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          53.82%    passed     48.81%
+ 420  ACT46069_RtxA_partial_uncultured_Kingella_sp.                                                                                     80.40%    failed      0.92%
+ 421  ACT46063_RtxA_partial_uncultured_Kingella_sp.                                                                                     80.40%    failed      1.43%
+ 422  ACV85738_RtxA_partial_Kingella_kingae                                                                                             80.40%    failed      1.29%
+ 423  ACT46070_RtxA_partial_uncultured_Kingella_sp.                                                                                     80.40%    failed      1.07%
+ 424  ACV85743_RtxA_partial_Kingella_kingae                                                                                             80.40%    failed      1.33%
+ 425  ACV85755_RtxA_partial_Kingella_kingae                                                                                             80.56%    failed      2.37%
+ 426  EGQ9299315_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          54.62%    passed     50.78%
+ 427  ACV85731_RtxA_partial_Kingella_kingae                                                                                             80.64%    failed      1.21%
+ 428  ACT46082_RtxA_partial_uncultured_Kingella_sp.                                                                                     80.40%    failed      0.98%
+ 429  ABU93235_recombinant_pilin/cytotoxin_fusion_protein_synthetic_construct                                                           67.07%    passed     42.26%
+ 430  ACV85757_RtxA_partial_Kingella_kingae                                                                                             80.88%    failed      2.29%
+ 431  ACV85742_RtxA_partial_Kingella_kingae                                                                                             78.31%    failed      1.03%
+ 432  EIN7788099_enterohemolysin_EhxA_Shigella_flexneri                                                                                 54.46%    failed      1.78%
+ 433  ACT46064_RtxA_partial_uncultured_Kingella_sp.                                                                                     79.52%    failed      1.77%
+ 434  EGA7078142_enterohemolysin_EhxA_Shigella_sonnei                                                                                   56.87%    failed      2.14%
+ 435  ACT46074_RtxA_partial_uncultured_Kingella_sp.                                                                                     78.63%    failed      0.81%
+ 436  EGQ7878310_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          59.28%    passed     35.24%
+ 437  EJG0067022_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          59.28%    passed     98.17%
+ 438  ACT46080_RtxA_partial_uncultured_Kingella_sp.                                                                                     78.71%    failed      0.66%
+ 439  EFV9016837_enterohemolysin_EhxA_Shigella_sonnei                                                                                   58.07%    failed      1.50%
+ 440  EJF7775988_RTX_toxin_hemolysin_A_Salmonella_enterica_subsp._enterica                                                              63.53%    passed     77.52%
+ 441  ACV85759_RtxA_partial_Kingella_kingae                                                                                             80.00%    failed      2.64%
+ 442  TDE73690_enterohemolysin_partial_Escherichia_sp._KCJ4928                                                                          58.71%    failed      1.09%
+ 443  MCG9766859_RTX_toxin_hemolysin_A_Vibrio_alginolyticus                                                                             82.01%    passed      8.48%
+ 444  EFW0013151_enterohemolysin_EhxA_Shigella_sonnei                                                                                   59.52%    failed      1.34%
+ 445  ABB70029_ApxIIICA_partial_Actinobacillus_rossii                                                                                   59.44%    failed      4.36%
+ 446  ACT46075_RtxA_partial_uncultured_Kingella_sp.                                                                                     81.45%    failed      3.27%
+ 447  KYK90262_hypothetical_protein_SA269_11190_partial_Aggregatibacter_actinomycetemcomitans_serotype_d_str._SA269                     56.71%    failed      0.69%
+ 448  EII3132214_RTX_toxin_hemolysin_A_Vibrio_parahaemolyticus                                                                          55.82%    failed      0.00%
+WARNING: 46 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                             26.97%  60 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.00245905 secs using 86.82% CPU
+
+Creating fast initial parsimony tree by random order stepwise addition...
+0.366 seconds, parsimony score: 9809 (based on 1080 sites)
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 37.893 secs using 98.9% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -55532.059
+Optimal log-likelihood: -55532.057
+Proportion of invariable sites: 0.037
+Gamma shape alpha: 1.384
+Parameters optimization took 1 rounds (2.433 sec)
+Time for fast ML tree search: 54.648 seconds
+
+NOTE: ModelFinder requires 846 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 1245) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            57263.093    893 116312.186   120861.143   120890.500
+  2  LG+I          56905.704    894 115599.408   120171.580   120182.848
+  3  LG+G4         55546.052    894 112880.103   117452.275   117463.544
+  4  LG+I+G4       55532.078    895 112854.157   117449.687   117442.724
+  5  LG+R2         55833.998    895 113457.997   118053.527   118046.564
+  6  LG+R3         55564.850    897 112923.700   117566.386   117522.521
+  7  LG+R4         55502.603    899 112803.207   117493.641   117412.281
+  8  LG+R5         55488.387    901 112778.775   117517.562   117398.103
+  9  LG+R6         55486.275    903 112778.550   117566.304   117408.132
+ 14  LG+I+I+R2     55730.255    896 113252.511   117871.545   117846.205
+ 15  LG+I+I+R3     55554.303    898 112904.605   117571.091   117508.553
+ 16  LG+I+I+R4     55499.603    900 112799.205   117513.740   117413.407
+ 17  LG+I+I+R5     55488.795    902 112781.590   117544.783   117406.046
+ 18  LG+I+I+R6     55486.494    904 112780.988   117593.459   117415.698
+ 30  LG+F+R5       55149.711    920 112139.423   117369.793   116856.163
+ 39  LG+F+I+I+R5   55150.368    921 112142.736   117400.705   116864.603
+ 52  WAG+R5        55429.359    901 112660.717   117399.504   117280.046
+ 61  WAG+I+I+R5    55430.238    902 112664.475   117427.668   117288.931
+ 74  WAG+F+R5      55155.738    920 112151.477   117381.847   116868.216
+ 83  WAG+F+I+I+R5  55155.944    921 112153.887   117411.856   116875.753
+ 96  JTT+R5        55356.465    901 112514.929   117253.716   117134.258
+105  JTT+I+I+R5    55357.110    902 112518.221   117281.414   117142.676
+118  JTT+F+R5      54951.903    920 111743.806   116974.176   116460.546
+127  JTT+F+I+I+R5  54951.631    921 111745.262   117003.231   116467.128
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+140  Q.pfam+R5     55442.131    901 112686.263   117425.050   117305.591
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+149  Q.pfam+I+I+R5 55444.176    902 112692.352   117455.545   117316.807
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+162  Q.pfam+F+R5   55101.975    920 112043.951   117274.321   116760.690
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+171  Q.pfam+F+I+I+R5 55103.490    921 112048.981   117306.950   116770.847
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+184  Q.bird+R5     56090.565    901 113983.130   118721.917   118602.459
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+193  Q.bird+I+I+R5 56090.509    902 113985.019   118748.212   118609.474
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+206  Q.bird+F+R5   55438.989    920 112717.979   117948.349   117434.718
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+215  Q.bird+F+I+I+R5 55438.356    921 112718.712   117976.681   117440.578
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+228  Q.mammal+R5   55874.283    901 113550.565   118289.352   118169.894
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+237  Q.mammal+I+I+R5 55874.597    902 113553.195   118316.388   118177.650
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+250  Q.mammal+F+R5 55217.302    920 112274.604   117504.974   116991.343
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+259  Q.mammal+F+I+I+R5 55216.862    921 112275.724   117533.693   116997.591
+272  Q.insect+R5   55456.160    901 112714.320   117453.107   117333.648
+281  Q.insect+I+I+R5 55456.790    902 112717.580   117480.773   117342.036
+294  Q.insect+F+R5 55292.107    920 112424.214   117654.584   117140.954
+303  Q.insect+F+I+I+R5 55293.053    921 112428.106   117686.075   117149.973
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+316  Q.plant+R5    55353.890    901 112509.780   117248.567   117129.109
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+325  Q.plant+I+I+R5 55354.670    902 112513.341   117276.534   117137.796
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+338  Q.plant+F+R5  55017.282    920 111874.565   117104.935   116591.304
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+347  Q.plant+F+I+I+R5 55017.299    921 111876.597   117134.566   116598.464
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+360  Q.yeast+R5    55250.196    901 112302.392   117041.179   116921.720
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+369  Q.yeast+I+I+R5 55251.024    902 112306.047   117069.240   116930.503
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+382  Q.yeast+F+R5  55196.194    920 112232.388   117462.758   116949.127
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+391  Q.yeast+F+I+I+R5 55197.514    921 112237.027   117494.996   116958.894
+404  JTTDCMut+R5   55349.874    901 112501.748   117240.536   117121.077
+413  JTTDCMut+I+I+R5 55350.976    902 112505.951   117269.144   117130.407
+426  JTTDCMut+F+R5 54955.396    920 111750.792   116981.163   116467.532
+435  JTTDCMut+F+I+I+R5 54955.148    921 111752.296   117010.265   116474.162
+448  DCMut+R5      56061.874    901 113925.748   118664.536   118545.077
+457  DCMut+I+I+R5  56061.188    902 113926.377   118689.570   118550.832
+470  DCMut+F+R5    55869.009    920 113578.017   118808.388   118294.757
+479  DCMut+F+I+I+R5 55867.555    921 113577.109   118835.078   118298.976
+492  VT+R5         55608.951    901 113019.901   117758.688   117639.230
+501  VT+I+I+R5     55610.648    902 113025.295   117788.488   117649.751
+514  VT+F+R5       55289.474    920 112418.949   117649.319   117135.688
+523  VT+F+I+I+R5   55290.667    921 112423.334   117681.303   117145.201
+536  PMB+R5        56369.639    901 114541.277   119280.064   119160.606
+545  PMB+I+I+R5    56371.463    902 114546.925   119310.118   119171.381
+558  PMB+F+R5      55850.857    920 113541.714   118772.084   118258.453
+567  PMB+F+I+I+R5  55852.679    921 113547.357   118805.327   118269.224
+580  Blosum62+R5   56350.938    901 114503.876   119242.663   119123.204
+589  Blosum62+I+I+R5 56352.760    902 114509.520   119272.713   119133.976
+602  Blosum62+F+R5 55914.064    920 113668.129   118898.499   118384.868
+611  Blosum62+F+I+I+R5 55915.954    921 113673.908   118931.877   118395.774
+624  Dayhoff+R5    56058.372    901 113918.744   118657.532   118538.073
+633  Dayhoff+I+I+R5 56057.656    902 113919.313   118682.506   118543.768
+646  Dayhoff+F+R5  55866.913    920 113573.826   118804.196   118290.565
+655  Dayhoff+F+I+I+R5 55865.431    921 113572.862   118830.831   118294.729
+668  mtREV+R5      57435.600    901 116673.201   121411.988   121292.529
+677  mtREV+I+I+R5  57437.300    902 116678.600   121441.793   121303.055
+690  mtREV+F+R5    55668.840    920 113177.680   118408.050   117894.419
+699  mtREV+F+I+I+R5 55670.659    921 113183.318   118441.287   117905.185
+712  mtART+R5      58658.615    901 119119.230   123858.017   123738.558
+721  mtART+I+I+R5  58657.617    902 119119.234   123882.427   123743.690
+734  mtART+F+R5    56837.181    920 115514.361   120744.731   120231.101
+743  mtART+F+I+I+R5 56839.298    921 115520.596   120778.565   120242.463
+756  mtZOA+R5      57307.632    901 116417.265   121156.052   121036.593
+765  mtZOA+I+I+R5  57308.779    902 116421.559   121184.752   121046.014
+778  mtZOA+F+R5    55912.387    920 113664.775   118895.145   118381.514
+787  mtZOA+F+I+I+R5 55913.899    921 113669.797   118927.766   118391.664
+800  mtMet+R5      57114.315    901 116030.629   120769.417   120649.958
+809  mtMet+I+I+R5  57115.318    902 116034.637   120797.830   120659.092
+822  mtMet+F+R5    55501.627    920 112843.254   118073.624   117559.994
+831  mtMet+F+I+I+R5 55502.290    921 112846.581   118104.550   117568.447
+844  mtVer+R5      57316.544    901 116435.088   121173.876   121054.417
+853  mtVer+I+I+R5  57318.002    902 116440.003   121203.196   121064.459
+866  mtVer+F+R5    55857.094    920 113554.188   118784.559   118270.928
+875  mtVer+F+I+I+R5 55856.120    921 113554.240   118812.209   118276.107
+888  mtInv+R5      57569.926    901 116941.853   121680.640   121561.181
+897  mtInv+I+I+R5  57570.052    902 116944.104   121707.297   121568.560
+910  mtInv+F+R5    55440.183    920 112720.366   117950.736   117437.105
+919  mtInv+F+I+I+R5 55441.194    921 112724.388   117982.357   117446.254
+932  mtMAM+R5      58479.551    901 118761.102   123499.889   123380.430
+941  mtMAM+I+I+R5  58480.177    902 118764.353   123527.546   123388.809
+954  mtMAM+F+R5    56590.175    920 115020.349   120250.720   119737.089
+963  mtMAM+F+I+I+R5 56590.120    921 115022.239   120280.208   119744.106
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+976  FLAVI+R5      57069.760    901 115941.520   120680.307   120560.849
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+985  FLAVI+I+I+R5  57071.071    902 115946.141   120709.334   120570.597
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+998  FLAVI+F+R5    56316.436    920 114472.872   119703.243   119189.612
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+1007  FLAVI+F+I+I+R5 56313.116    921 114468.231   119726.201   119190.098
+1020  HIVb+R5       56140.273    901 114082.547   118821.334   118701.875
+1029  HIVb+I+I+R5   56140.854    902 114085.707   118848.900   118710.163
+1042  HIVb+F+R5     55592.505    920 113025.010   118255.380   117741.749
+1051  HIVb+F+I+I+R5 55589.891    921 113021.782   118279.751   117743.648
+1064  HIVw+R5       57191.461    901 116184.922   120923.710   120804.251
+1073  HIVw+I+I+R5   57191.331    902 116186.662   120949.855   120811.118
+1086  HIVw+F+R5     56455.039    920 114750.078   119980.449   119466.818
+1095  HIVw+F+I+I+R5 56451.261    921 114744.523   120002.492   119466.389
+1108  FLU+R5        55620.854    901 113043.707   117782.494   117663.036
+1117  FLU+I+I+R5    55620.006    902 113044.013   117807.206   117668.468
+1130  FLU+F+R5      55324.059    920 112488.118   117718.488   117204.858
+1139  FLU+F+I+I+R5  55321.185    921 112484.370   117742.339   117206.237
+1152  rtREV+R5      56204.317    901 114210.633   118949.420   118829.962
+1161  rtREV+I+I+R5  56207.235    902 114218.469   118981.662   118842.925
+1174  rtREV+F+R5    55527.042    920 112894.084   118124.454   117610.824
+1183  rtREV+F+I+I+R5 55528.958    921 112899.916   118157.885   117621.782
+1196  cpREV+R5      55445.913    901 112693.826   117432.613   117313.154
+1205  cpREV+I+I+R5  55447.210    902 112698.420   117461.613   117322.876
+1218  cpREV+F+R5    55388.527    920 112617.054   117847.424   117333.793
+1227  cpREV+F+I+I+R5 55389.119    921 112620.239   117878.208   117342.105
+Akaike Information Criterion:           JTT+F+R5
+Corrected Akaike Information Criterion: JTT+F+R5
+Bayesian Information Criterion:         JTT+F+R5
+Best-fit model: JTT+F+R5 chosen according to BIC
+
+All model information printed to rtxA_clustalo_aln.fasta.model.gz
+CPU time for ModelFinder: 14079.899 seconds (3h:54m:39s)
+Wall-clock time for ModelFinder: 62940.817 seconds (17h:29m:0s)
+WARNING: States(s) C rarely appear in alignment and may cause numerical problems
+Generating 1000 samples for ultrafast bootstrap (seed: 929123)...
+
+NOTE: 425 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -54951.903
+Optimal log-likelihood: -54951.789
+Site proportion and rates:  (0.160,0.096) (0.267,0.463) (0.281,0.917) (0.240,1.763) (0.053,3.423)
+Parameters optimization took 1 rounds (11.331 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 25.2402 secs using 98.73% CPU
+Computing ML distances took 25.245205 sec (of wall-clock time) 24.922905 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.00374103 secs using 175.8% CPU
+Constructing RapidNJ tree: done in 0.00824594 secs using 175.4% CPU
+Computing RapidNJ tree took 0.012142 sec (of wall-clock time) 0.021128 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -58310.597
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 37.168 second
+Computing log-likelihood of 98 initial trees ... 113.758 seconds
+Current best score: -54951.789
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 18.1163 secs using 98.74% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -54947.327
+Optimizing NNI: done in 66.9877 secs using 98.85% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -54799.674
+Optimizing NNI: done in 66.0677 secs using 98.86% CPU
+Optimizing NNI: done in 61.9796 secs using 98.68% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -54791.448
+Optimizing NNI: done in 36.4764 secs using 98.8% CPU
+Optimizing NNI: done in 32.0281 secs using 98.67% CPU
+Optimizing NNI: done in 64.4773 secs using 98.76% CPU
+Optimizing NNI: done in 58.0229 secs using 98.71% CPU
+Optimizing NNI: done in 52.3926 secs using 98.97% CPU
+Optimizing NNI: done in 56.5231 secs using 98.96% CPU
+Iteration 10 / LogL: -54820.712 / Time: 0h:12m:38s
+Optimizing NNI: done in 60.36 secs using 99.08% CPU
+Optimizing NNI: done in 52.0671 secs using 99.06% CPU
+Optimizing NNI: done in 61.0065 secs using 99.06% CPU
+Optimizing NNI: done in 61.1136 secs using 99.01% CPU
+Optimizing NNI: done in 32.0506 secs using 99.05% CPU
+Optimizing NNI: done in 59.5067 secs using 99.06% CPU
+Optimizing NNI: done in 55.1758 secs using 99.1% CPU
+Optimizing NNI: done in 64.188 secs using 99.06% CPU
+Optimizing NNI: done in 64.7312 secs using 99.06% CPU
+Optimizing NNI: done in 58.6219 secs using 99.08% CPU
+Iteration 20 / LogL: -54866.748 / Time: 0h:22m:9s
+Finish initializing candidate tree set (20)
+Current best tree score: -54791.448 / CPU time: 1279.758
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 53.5166 secs using 99.07% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -54783.977
+Optimizing NNI: done in 62.3964 secs using 98.65% CPU
+Optimizing NNI: done in 44.216 secs using 99.1% CPU
+Optimizing NNI: done in 53.6037 secs using 99.09% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -54782.286
+Optimizing NNI: done in 53.151 secs using 99.07% CPU
+Optimizing NNI: done in 47.255 secs using 99.11% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -54781.063
+Optimizing NNI: done in 62.147 secs using 99.26% CPU
+Optimizing NNI: done in 46.4227 secs using 99.53% CPU
+Optimizing NNI: done in 42.9302 secs using 99.69% CPU
+Optimizing NNI: done in 61.4664 secs using 99.04% CPU
+Iteration 30 / LogL: -54826.862 / Time: 0h:31m:49s (1h:45m:21s left)
+Optimizing NNI: done in 48.6864 secs using 99.06% CPU
+Optimizing NNI: done in 40.3124 secs using 98.97% CPU
+Optimizing NNI: done in 34.5004 secs using 98.91% CPU
+Optimizing NNI: done in 53.043 secs using 99.52% CPU
+Optimizing NNI: done in 40.6737 secs using 99.63% CPU
+Optimizing NNI: done in 50.4751 secs using 99.36% CPU
+Optimizing NNI: done in 34.5243 secs using 99.66% CPU
+Optimizing NNI: done in 55.9038 secs using 99.6% CPU
+Optimizing NNI: done in 31.4653 secs using 99.63% CPU
+Optimizing NNI: done in 54.1672 secs using 99.68% CPU
+Iteration 40 / LogL: -54811.517 / Time: 0h:39m:16s (1h:26m:35s left)
+Optimizing NNI: done in 81.4863 secs using 99.7% CPU
+Optimizing NNI: done in 48.0571 secs using 99.69% CPU
+Optimizing NNI: done in 43.9817 secs using 99.7% CPU
+Optimizing NNI: done in 65.7033 secs using 96.62% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -54775.842
+Optimizing NNI: done in 68.3113 secs using 99.5% CPU
+Optimizing NNI: done in 54.5599 secs using 99.69% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 46: -54771.214
+Optimizing NNI: done in 56.4783 secs using 99.75% CPU
+Optimizing NNI: done in 54.5995 secs using 99.97% CPU
+Optimizing NNI: done in 47.6263 secs using 99.72% CPU
+Optimizing NNI: done in 52.4087 secs using 99.61% CPU
+Iteration 50 / LogL: -54814.357 / Time: 0h:49m:12s (1h:36m:24s left)
+Log-likelihood cutoff on original alignment: -54948.577
+Optimizing NNI: done in 47.9694 secs using 99.66% CPU
+Optimizing NNI: done in 56.7282 secs using 99.72% CPU
+Optimizing NNI: done in 45.9103 secs using 99.75% CPU
+Optimizing NNI: done in 42.1936 secs using 99.76% CPU
+Optimizing NNI: done in 51.7158 secs using 99.74% CPU
+Optimizing NNI: done in 50.7969 secs using 99.75% CPU
+Optimizing NNI: done in 45.0342 secs using 99.75% CPU
+Optimizing NNI: done in 55.9702 secs using 99.74% CPU
+Optimizing NNI: done in 43.6334 secs using 99.73% CPU
+Optimizing NNI: done in 47.3571 secs using 99.73% CPU
+Iteration 60 / LogL: -55763.314 / Time: 0h:57m:23s (1h:23m:39s left)
+Optimizing NNI: done in 41.1435 secs using 99.72% CPU
+Optimizing NNI: done in 68.6437 secs using 99.73% CPU
+Optimizing NNI: done in 41.486 secs using 99.73% CPU
+Optimizing NNI: done in 47.9639 secs using 99.73% CPU
+Optimizing NNI: done in 87.2934 secs using 99.73% CPU
+Optimizing NNI: done in 30.9167 secs using 99.66% CPU
+Optimizing NNI: done in 35.2837 secs using 99.72% CPU
+Optimizing NNI: done in 44.1658 secs using 99.73% CPU
+Optimizing NNI: done in 96.5723 secs using 99.72% CPU
+Optimizing NNI: done in 55.9287 secs using 99.7% CPU
+Iteration 70 / LogL: -54774.269 / Time: 1h:6m:35s (1h:13m:21s left)
+Optimizing NNI: done in 27.8292 secs using 99.73% CPU
+Optimizing NNI: done in 52.5463 secs using 99.61% CPU
+Optimizing NNI: done in 50.2619 secs using 99.64% CPU
+Optimizing NNI: done in 50.3238 secs using 99.73% CPU
+Optimizing NNI: done in 44.3173 secs using 99.66% CPU
+Optimizing NNI: done in 59.7254 secs using 99.71% CPU
+Optimizing NNI: done in 31.7349 secs using 99.72% CPU
+Optimizing NNI: done in 39.4787 secs using 99.73% CPU
+Optimizing NNI: done in 43.2798 secs using 99.72% CPU
+Optimizing NNI: done in 49.1866 secs using 99.73% CPU
+Iteration 80 / LogL: -54910.074 / Time: 1h:14m:7s (1h:1m:55s left)
+Optimizing NNI: done in 52.363 secs using 99.73% CPU
+Optimizing NNI: done in 43.4586 secs using 99.73% CPU
+Optimizing NNI: done in 47.5958 secs using 99.74% CPU
+Optimizing NNI: done in 51.782 secs using 99.73% CPU
+Optimizing NNI: done in 44.8369 secs using 99.72% CPU
+Optimizing NNI: done in 47.7868 secs using 99.73% CPU
+Optimizing NNI: done in 41.8363 secs using 99.71% CPU
+Optimizing NNI: done in 50.4259 secs using 99.74% CPU
+Optimizing NNI: done in 42.4207 secs using 99.73% CPU
+Optimizing NNI: done in 53.6929 secs using 99.72% CPU
+Iteration 90 / LogL: -54985.723 / Time: 1h:22m:6s (0h:51m:39s left)
+Optimizing NNI: done in 37.7011 secs using 99.9% CPU
+Optimizing NNI: done in 54.9418 secs using 99.52% CPU
+Optimizing NNI: done in 69.6754 secs using 99.71% CPU
+Optimizing NNI: done in 52.2889 secs using 99.69% CPU
+Optimizing NNI: done in 36.7624 secs using 99.72% CPU
+Optimizing NNI: done in 52.3344 secs using 99.72% CPU
+Optimizing NNI: done in 47.4033 secs using 99.72% CPU
+Optimizing NNI: done in 42.9591 secs using 99.7% CPU
+Optimizing NNI: done in 43.3567 secs using 99.73% CPU
+Optimizing NNI: done in 52.1893 secs using 99.74% CPU
+Iteration 100 / LogL: -55358.549 / Time: 1h:30m:18s (0h:41m:57s left)
+Log-likelihood cutoff on original alignment: -54918.683
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Optimizing NNI: done in 43.4471 secs using 99.72% CPU
+Optimizing NNI: done in 60.8978 secs using 99.7% CPU
+Optimizing NNI: done in 53.4496 secs using 99.73% CPU
+Optimizing NNI: done in 50.9456 secs using 99.73% CPU
+Optimizing NNI: done in 63.9687 secs using 99.72% CPU
+Optimizing NNI: done in 48.5212 secs using 99.71% CPU
+Optimizing NNI: done in 50.092 secs using 99.74% CPU
+Optimizing NNI: done in 52.164 secs using 99.73% CPU
+Optimizing NNI: done in 44.5132 secs using 99.7% CPU
+Optimizing NNI: done in 47.0008 secs using 99.61% CPU
+Iteration 110 / LogL: -54787.677 / Time: 1h:38m:57s (1h:21m:42s left)
+Optimizing NNI: done in 43.9577 secs using 99.69% CPU
+Optimizing NNI: done in 53.6215 secs using 99.73% CPU
+Optimizing NNI: done in 34.2497 secs using 99.73% CPU
+Optimizing NNI: done in 58.8268 secs using 99.72% CPU
+Optimizing NNI: done in 49.0777 secs using 99.72% CPU
+Optimizing NNI: done in 50.9149 secs using 99.72% CPU
+Optimizing NNI: done in 49.9016 secs using 99.73% CPU
+Optimizing NNI: done in 39.749 secs using 99.71% CPU
+Optimizing NNI: done in 46.4732 secs using 99.75% CPU
+Optimizing NNI: done in 53.4014 secs using 99.73% CPU
+Iteration 120 / LogL: -54797.998 / Time: 1h:47m:0s (1h:11m:56s left)
+Optimizing NNI: done in 43.8638 secs using 99.69% CPU
+Optimizing NNI: done in 45.8476 secs using 99.71% CPU
+Optimizing NNI: done in 41.7971 secs using 99.73% CPU
+Optimizing NNI: done in 45.5009 secs using 99.66% CPU
+Optimizing NNI: done in 36.9237 secs using 99.7% CPU
+Optimizing NNI: done in 45.8304 secs using 99.74% CPU
+Optimizing NNI: done in 54.6773 secs using 99.73% CPU
+Optimizing NNI: done in 65.6271 secs using 99.67% CPU
+Optimizing NNI: done in 53.61 secs using 99.63% CPU
+Optimizing NNI: done in 60.6001 secs using 99.47% CPU
+Iteration 130 / LogL: -54829.720 / Time: 1h:55m:18s (1h:2m:34s left)
+Optimizing NNI: done in 56.2493 secs using 99.71% CPU
+Optimizing NNI: done in 48.9235 secs using 99.73% CPU
+Optimizing NNI: done in 55.0683 secs using 99.74% CPU
+Optimizing NNI: done in 43.5511 secs using 99.71% CPU
+Optimizing NNI: done in 41.3776 secs using 99.68% CPU
+Optimizing NNI: done in 42.0914 secs using 99.67% CPU
+Optimizing NNI: done in 61.2458 secs using 99.68% CPU
+Optimizing NNI: done in 45.5061 secs using 99.67% CPU
+Optimizing NNI: done in 57.751 secs using 99.68% CPU
+Optimizing NNI: done in 53.9299 secs using 99.68% CPU
+Iteration 140 / LogL: -54771.760 / Time: 2h:3m:46s (0h:53m:25s left)
+Optimizing NNI: done in 37.097 secs using 99.68% CPU
+Optimizing NNI: done in 26.6981 secs using 99.67% CPU
+Optimizing NNI: done in 35.2337 secs using 99.71% CPU
+Optimizing NNI: done in 40.194 secs using 99.73% CPU
+Optimizing NNI: done in 49.0798 secs using 99.68% CPU
+Optimizing NNI: done in 54.0747 secs using 99.57% CPU
+Optimizing NNI: done in 49.7289 secs using 99.67% CPU
+TREE SEARCH COMPLETED AFTER 147 ITERATIONS / Time: 2h:8m:41s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -54771.214
+2. Current log-likelihood: -54771.163
+3. Current log-likelihood: -54771.112
+4. Current log-likelihood: -54771.062
+5. Current log-likelihood: -54771.016
+6. Current log-likelihood: -54770.971
+7. Current log-likelihood: -54770.927
+8. Current log-likelihood: -54770.886
+9. Current log-likelihood: -54770.846
+10. Current log-likelihood: -54770.810
+11. Current log-likelihood: -54770.773
+12. Current log-likelihood: -54770.740
+13. Current log-likelihood: -54770.706
+14. Current log-likelihood: -54770.686
+15. Current log-likelihood: -54770.656
+16. Current log-likelihood: -54770.638
+17. Current log-likelihood: -54770.613
+18. Current log-likelihood: -54770.599
+19. Current log-likelihood: -54770.582
+20. Current log-likelihood: -54770.564
+21. Current log-likelihood: -54770.546
+22. Current log-likelihood: -54770.529
+23. Current log-likelihood: -54770.514
+24. Current log-likelihood: -54770.500
+25. Current log-likelihood: -54770.488
+26. Current log-likelihood: -54770.475
+27. Current log-likelihood: -54770.463
+28. Current log-likelihood: -54770.452
+29. Current log-likelihood: -54770.437
+30. Current log-likelihood: -54770.426
+31. Current log-likelihood: -54770.414
+32. Current log-likelihood: -54770.404
+33. Current log-likelihood: -54770.393
+Optimal log-likelihood: -54770.378
+Site proportion and rates:  (0.149,0.083) (0.250,0.437) (0.285,0.869) (0.261,1.696) (0.056,3.379)
+Parameters optimization took 33 rounds (254.671 sec)
+BEST SCORE FOUND : -54770.378
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Alternative NNI shows better log-likelihood -54770.376 > -54770.378
+Alternative NNI shows better log-likelihood -54770.377 > -54770.378
+Alternative NNI shows better log-likelihood -54770.377 > -54770.378
+Alternative NNI shows better log-likelihood -54770.377 > -54770.378
+9.930 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file rtxA_clustalo_aln.fasta.splits.nex
+Total tree length: 15.478
+
+Total number of iterations: 147
+CPU time used for tree search: 7631.323 sec (2h:7m:11s)
+Wall-clock time used for tree search: 7671.452 sec (2h:7m:51s)
+Total CPU time used: 7945.227 sec (2h:12m:25s)
+Total wall-clock time used: 7987.187 sec (2h:13m:7s)
+
+Computing bootstrap consensus tree...
+Reading input file rtxA_clustalo_aln.fasta.splits.nex...
+448 taxa and 5848 splits.
+Consensus tree written to rtxA_clustalo_aln.fasta.contree
+Reading input trees file rtxA_clustalo_aln.fasta.contree
+Log-likelihood of consensus tree: -54798.601
+
+Analysis results written to: 
+  IQ-TREE report:                rtxA_clustalo_aln.fasta.iqtree
+  Maximum-likelihood tree:       rtxA_clustalo_aln.fasta.treefile
+  Likelihood distances:          rtxA_clustalo_aln.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          rtxA_clustalo_aln.fasta.splits.nex
+  Consensus tree:                rtxA_clustalo_aln.fasta.contree
+  Screen log file:               rtxA_clustalo_aln.fasta.log
+
+ALISIM COMMAND
+--------------
+--alisim simulated_MSA -t rtxA_clustalo_aln.fasta.treefile -m "JTT+F+R5{0.14893,0.0826138,0.24984,0.437236,0.284506,0.868952,0.260852,1.69619,0.0558717,3.37885}" --length 1245
+
+Date and Time: Thu Mar 23 11:25:08 2023
