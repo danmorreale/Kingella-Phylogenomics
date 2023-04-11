@@ -1,10 +1,10 @@
 # Kingella_phylogenomics
 Data associated with the manuscript "Acquisition, co-option, and duplication of the rtx toxin system and the emergence of virulence in Kingella" by Morreale et al.
 
-##Key
+## Key
 This project includes several folders with additonal data and resources used in the analysis of this work. 
 
-###Directory:
+### Directory:
 - Fig1_genus_tree
 - Fig2_K._negevensis
 - Kingella_metadata_tree
