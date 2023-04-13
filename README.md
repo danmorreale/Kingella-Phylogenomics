@@ -27,7 +27,7 @@ This project includes several folders with additonal data and resources used in 
   - SW416_contig1_959893_979928.gb
   </br></br> **NOTE:** Each file in this directory is Genbank formatted genomic regions for the RTX systems in K. negevensis. These were used as input for Fig 2 along with EasyFig. The file names include the Strain name, contig of interest, genomic coordinates.
 - Kingella_metadata_tree
-
+  - NEWICK formatted tree associated with figure 3.
 - Scripts:
   - amrbatch.sh
   - collect_from_ffn.py
@@ -44,7 +44,13 @@ This project includes several folders with additonal data and resources used in 
    </br> **This directory includes the original alignments used as input for quantifying tree congruency.**</br></br>
   - Results:
    </br> **This directory inlcudes the IQTree files generated during statistical analyses of tree congruency.**</br></br>
-- Plot_data
-  </br></br> **Raw data files used in generating data plots.**
+- Fig4_data
+  - Basolateral_CFU_Isogenic_16HBE_transwell_data.txt : Basolateral CFU counts generated for isogenic strains in the 16HBE model system.
+  - Rat_survival_data_KK03.txt : Rat survival data associated with isogenic strain i.p. infection.
+  - TEER_Isogenic_16HBE_transwell_data.txt : Transepithelial electric resistance measurements for isogenic strains in the 16HBE model system.
+- FigS2_data
+  - Basolateral_CFU_Isogenic_16HBE_transwell_data.txt : Basolateral CFU counts generated for PYKK081 isogenic strains in the 16HBE model system.
+  - Rat_survival_data_PYKK081.txt : Rat survival data associated with isogenic strain i.p. infection.
+  - TEER_Isogenic_16HBE_transwell_data.txt : Transepithelial electric resistance measurements for PYKK081 isogenic strains in the 16HBE model system.
 
 Each directory contains several files that pertain to the analysis or figure. Please don't hesitate to contact us if there are any issues.
