@@ -8,7 +8,7 @@ This project includes several folders with additonal data and resources used in 
 
 ### Directory:
 - Fig1_genus_tree
-  - Figure1B.txt : Newick formatted tree corresponding to figure 1B, following annotation in IToL.
+  - Figure1B.txt : Newick formatted tree corresponding to fig. 1B, following annotation in IToL.
   - RAxML_bipartitions.Genus_tree_KWGREF_FINAL : RAxML output file for this tree with bootstrap information.
   - RAxML_bipartitionsBranchLabels.Genus_tree_KWGREF_FINAL : RAxML output file for this tree containing branch information.
   - RAxML_info.Genus_tree_KWGREF_FINAL : RAxML log file for this tree. 
@@ -27,9 +27,9 @@ This project includes several folders with additonal data and resources used in 
   - PED555_contig1_233397_43194.gbk
   - PVC1712_contig6_22672_37546.gb
   - SW416_contig1_959893_979928.gb
-  </br></br> **NOTE:** Each file in this directory is Genbank formatted genomic regions for the RTX systems in K. negevensis. These were used as input for Fig 2 along with EasyFig. The file names include the Strain name, contig of interest, genomic coordinates.
+  </br></br> **NOTE:** Each file in this directory is Genbank formatted genomic regions for the RTX systems in K. negevensis. These were used as input for fig 2 along with EasyFig. The file names include the strain name, contig of interest, genomic coordinates.
 - Kingella_metadata_tree
-  - NEWICK formatted tree associated with figure 3.
+  - NEWICK formatted tree associated with fig. 3.
 - Scripts:
   - amrbatch.sh
   - collect_from_ffn.py
@@ -45,7 +45,7 @@ This project includes several folders with additonal data and resources used in 
   - Alignment:
    </br> **This directory includes the original alignments used as input for quantifying tree congruency.**</br></br>
   - Results:
-   </br> **This directory inlcudes the IQTree files generated during statistical analyses of tree congruency.**</br></br>
+   </br> **This directory includes the IQTree files generated during statistical analyses of tree congruency.**</br></br>
 - Fig4_data
   - Basolateral_CFU_Isogenic_16HBE_transwell_data.txt : Basolateral CFU counts generated for isogenic strains in the 16HBE model system.
   - Rat_survival_data_KK03.txt : Rat survival data associated with isogenic strain i.p. infection.
