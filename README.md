@@ -60,5 +60,8 @@ This project includes several folders with additonal data and resources used in 
   - TEER_Isogenic_16HBE_transwell_data.txt : Transepithelial electric resistance measurements for PYKK081 isogenic strains in the 16HBE model system.
 
 
+### DOI of this repository:
+[![DOI](https://zenodo.org/badge/626474808.svg)](https://zenodo.org/badge/latestdoi/626474808)
+
 
 
